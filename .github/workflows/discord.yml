@@ -10,4 +10,4 @@ jobs:
         uses: Ilshidur/action-discord@master
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
-          message: "🚀 New push to the repository!"
+          message: "🚀 New push to the repository! + 1"
