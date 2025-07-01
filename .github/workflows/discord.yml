@@ -1,13 +1,14 @@
-name: Notify Discord
+name: Discord Webhook
 
 on: [push]
 
 jobs:
-  notify:
+  git:
     runs-on: ubuntu-latest
     steps:
-      - name: Discord Notification
-        uses: Ilshidur/action-discord@master
+      - uses: actions/checkout@v2
+
+      - name: Run Discord Webhook
+        uses: johnnyhuy/actions-discord-git-webhook@main
         with:
-          webhook: ${{ secrets.DISCORD_WEBHOOK }}
-          message: "🚀 New push to the repository! + 1"
+          webhook_url: ${{ secrets.https://discord.com/api/webhooks/1389735044553113630/KzZ2OaAb9vL5f0MoOAwVWiwVDAECdy6nGOgLypBz5TZu-VOMY8AUBTiTpLC1w3bwAnkL}}
