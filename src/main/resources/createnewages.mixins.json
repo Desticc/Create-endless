@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.desticc.createnewages.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "TestMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "itemGroup.createnewages": "Example Mod Tab",
+  "block.createnewages.example_block": "Example Block",
+  "item.createnewages.example_item": "Example Item",
+
+  "createnewages.configuration.title": "Create endless: new ages Configs",
+  "createnewages.configuration.section.createnewages.common.toml": "Create endless: new ages Configs",
+  "createnewages.configuration.section.createnewages.common.toml.title": "Create endless: new ages Configs",
+  "createnewages.configuration.items": "Item List",
+  "createnewages.configuration.logDirtBlock": "Log Dirt Block",
+  "createnewages.configuration.magicNumberIntroduction": "Magic Number Text",
+  "createnewages.configuration.magicNumber": "Magic Number"
+}
