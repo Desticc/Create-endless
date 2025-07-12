@@ -28,4 +28,5 @@ public class CreateendlessnewagesClient {
         Createendlessnewages.LOGGER.info("HELLO FROM CLIENT SETUP");
         Createendlessnewages.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }
+
 }
