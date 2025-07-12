@@ -61,10 +61,10 @@ public class Createendlessnewages {
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
     private void onClientSetup(final FMLClientSetupEvent event) {
-        LOGGER.info("Client has been setup!");
+        //LOGGER.info("Client has been setup!");
         event.enqueueWork(() -> {
             // Nothing needed here for now, unless UI elements need early init
-            NeoForge.EVENT_BUS.register(new ClientEventHandler());
+            //NeoForge.EVENT_BUS.register(new ClientEventHandler());
         });
     }
 

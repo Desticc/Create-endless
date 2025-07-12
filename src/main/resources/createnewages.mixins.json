@@ -3,7 +3,9 @@
   "package": "com.desticc.createnewages.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "TestMixin"
+    "TitleScreenMixin",
+    "LogoRendererMixin",
+    "VillagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
